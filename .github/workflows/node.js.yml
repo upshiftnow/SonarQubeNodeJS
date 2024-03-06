@@ -27,5 +27,5 @@ jobs:
     - run: npm install
     - run: npm run build --if-present
     - name: Execute Test Cases in case of Develop Branch
-      if: github.ref_name == "develop"
+      if:  github.ref_name == 'develop' 
       run: npm run test && npm run test:e2e
