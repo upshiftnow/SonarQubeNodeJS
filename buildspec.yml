@@ -54,7 +54,7 @@ artifacts:
      - "dist.zip"
   name: $(date +%Y-%m-%d)
   discard-paths: yes
-  base-directory: location
+  base-directory: .
 #cache:
   #paths:
     # - paths
