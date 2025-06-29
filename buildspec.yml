@@ -51,7 +51,8 @@ phases:
     #file-format: JunitXml | CucumberJson
 artifacts:
   files:
-     - "dist.zip"
+     # - "dist.zip"
+     - "dist/*"     
   name: $(date +%Y-%m-%d)
   discard-paths: yes
   base-directory: .
